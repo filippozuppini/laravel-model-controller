@@ -15,11 +15,11 @@
             <div class="card">
                 <div class="card-body">
 
-                    <h3 class="card-title">Title: {{ $movie['title'] }}</h3>
-                    <p class="card-text">Text {{ $movie['original_title'] }}</p>
-                    <p class="card-text">Text {{ $movie['nationality'] }}</p>
-                    <p class="card-text">Text {{ $movie['date'] }}</p>
-                    <p class="card-text">Text {{ $movie['vote'] }}</p>
+                    <h4 class="card-title"><b>Titolo:</b> {{ $movie['title'] }}</h4>
+                    <p class="card-text"><b>Titolo originale:</b> {{ $movie['original_title'] }}</p>
+                    <p class="card-text"><b>Nazionalitá:</b> {{ $movie['nationality'] }}</p>
+                    <p class="card-text"><b>Data uscita:</b> {{ $movie['date'] }}</p>
+                    <p class="card-text"><b>Voto:</b>  {{ $movie['vote'] }}</p>
 
                 </div>
             </div>
